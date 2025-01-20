@@ -1,0 +1,62 @@
+.book-page{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.6)),url('../../assets/hero7.jpg');
+    background-size: cover;
+    background-position: center;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.books{
+    margin: 90px auto;
+    width: 75%;
+    text-align: center;
+
+} .book-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.book-item img{
+    width: 22%;
+    border-radius: 10px;
+     
+     
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%; 
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+  }
+
+  .item img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 19px;
+    margin: 10px auto;
+  }
+  .botombook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+  .botombook p {
+    font-size: 14px; 
+    font-weight: bold;
+    color: whitesmoke; 
+    margin: 7px; 
+    padding: 0; 
+    line-height: 1.3; 
+    
+  }
+ 

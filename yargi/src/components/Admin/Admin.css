@@ -1,0 +1,136 @@
+.containerAdm {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.6)), url('../../assets/hero7.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Admin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.back {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(245, 245, 245, 0.966);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabledata {
+  margin: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  border: 1px solid #212EA0;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #333;
+}
+.bb{
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  
+}
+.table th {
+  background-color: #212EA0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #e2e2e2;
+  transform: scale(1.03);
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+.supprimer {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #212EA0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.supprimer:hover {
+  background-color: #212EA0;
+  transform: scale(1.05);
+}
+
+
+/* --------------------MQ-------------- */
+@media (max-width: 768px) {
+  .table th, .table td {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .supprimer {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .bb {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .table th, .table td {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  .supprimer {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .bb {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
