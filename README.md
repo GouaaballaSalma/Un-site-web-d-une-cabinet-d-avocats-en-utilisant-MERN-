@@ -83,7 +83,7 @@ Projet/ <br/>
 
 ### 1️⃣ Cloner le projet
 ```bash
-git clone <URL_DU_REPO>
+git clone https://github.com/GouaaballaSalma/Un-site-web-d-une-cabinet-d-avocats-en-utilisant-MERN-.git
 cd projet-avocat
 
 
